@@ -1,0 +1,14 @@
+.home-painting {
+  width: 28vw;          /* scales with viewport */
+  max-width: 360px;     /* cap size on large screens */
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;  /* center horizontally */
+}
+
+@media (max-width: 600px) { /* phones */
+  .home-painting {
+    width: 70vw;
+    max-width: 220px;
+  }
+}

@@ -1,0 +1,48 @@
+baseURL = "https://<your-username>.github.io/"
+languageCode = "en-us"
+title = "Reflective"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   
+
+[params]
+  ShowBreadCrumbs = false
+  ShowReadingTime = false
+  disableScrollToTop = true
+
+  [params.homeInfoParams]
+    Title = "We are Reflective"
+    Content = """<img src="/images/caravaggio.jpg" class="home-painting">
+    A small, selected group of people knows what we are up to. If you are one of them; thank you. If you aren’t, <a href="/contact-us/">contact us</a>."""
+
+  # Footer / social (optional)
+  # [[params.social]]
+  #   name = "github"
+  #   url = "https://github.com/<your-username>"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  # [[menu.main]]
+  #   name = "Research"
+  #   url = "/research/"
+  #   weight = 2
+  # [[menu.main]]
+  #   name = "Join Us"
+  #   url = "/join-us/"
+  #   weight = 3
+  [[menu.main]]
+    name = "Contact Us"
+    url = "/contact-us/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -19,7 +19,7 @@ enableRobotsTXT = false
   [params.homeInfoParams]
     Title = "We are Reflective"
     Content = """<img src="/images/caravaggio.jpg" class="home-painting">
-    A small, selected group of people knows what we are up to. If you are one of them; thank you. If you aren’t, <a href="/contact-us/">contact us</a>."""
+    A small, selected group of scientists and engineers who believe that the only way to Progress comes from being reflective. If you know what we are up to; thank you. If you are curious, <a href="/contact-us/">contact us</a>."""
 
   # Footer / social (optional)
   # [[params.social]]

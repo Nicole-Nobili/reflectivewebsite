@@ -19,7 +19,7 @@ enableRobotsTXT = false
   [params.homeInfoParams]
     Title = "We are Reflective"
     Content = """<img src="/images/caravaggio.jpg" class="home-painting">
-    We are a small team of scientists and engineers who believe that the only way to Progress comes from being Reflective. If you know what we are up to; thank you. If you are curious, <a href="/contact-us/">contact us</a>."""
+    We are a small team of scientists and engineers who believe that the only way to Progress comes from being Reflective. If you know what we are up to; thank you."""
 
   # Footer / social (optional)
   # [[params.social]]
@@ -39,10 +39,10 @@ enableRobotsTXT = false
   #   name = "Join Us"
   #   url = "/join-us/"
   #   weight = 3
-  [[menu.main]]
-    name = "Contact Us"
-    url = "/contact-us/"
-    weight = 4
+  # [[menu.main]]
+  #   name = "Contact Us"
+  #   url = "/contact-us/"
+  #   weight = 4
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

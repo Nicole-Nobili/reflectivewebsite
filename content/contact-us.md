@@ -3,7 +3,7 @@ title: "Contact Us"
 menu: {}
 ---
 
-Please drop us a note— we read every message.
+Please drop us a note — we read every message.
 
 <form action="https://formspree.io/f/REPLACE_ME" method="POST" class="contact-form" accept-charset="UTF-8">
   <!-- anti-bot honeypot -->
